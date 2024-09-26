@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow: hidden;
+    font-family: "Roboto", system-ui;
+}
+
+.control-panel {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 700px;
+
+}
+
+.control-panel .gravity-options {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.control-panel .gravity-options .option {
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid transparent;
+    transition: .5s all;
+}
+
+.control-panel .gravity-options .option.active {
+    border: 2px solid #919191;
+}
+
+.control-panel .gravity-options .option img {
+    width: 100%;
+}
+
+.control-panel .button-container{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #919191;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #ffb212;
+    transition: .5s all;
+}
+
+button:hover{
+    background-color: #ff7300;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
