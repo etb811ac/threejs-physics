@@ -65,6 +65,7 @@ button{
     background-color: #ffb212;
     transition: .5s all;
     border-radius: 10px;
+    color: #161616;
     @media (max-width: 500px) {
         padding: 10px 20px;
         font-size: 12px;
