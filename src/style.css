@@ -7,10 +7,11 @@ html,
 body {
     overflow: hidden;
     font-family: "Roboto", system-ui;
+    color: #161616;
 }
 
 .control-panel {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 20px;
     border-radius: 10px;
     position: fixed;
@@ -36,6 +37,10 @@ body {
     padding: 10px;
     border: 2px solid transparent;
     transition: .5s all;
+    @media (max-width: 500px) {
+        width: 40px;
+        font-size: 12px;
+      }
 }
 
 .control-panel .gravity-options .option.active {
@@ -59,10 +64,37 @@ button{
     border: none;
     background-color: #ffb212;
     transition: .5s all;
+    border-radius: 10px;
+    @media (max-width: 500px) {
+        padding: 10px 20px;
+        font-size: 12px;
+      }
 }
 
 button:hover{
     background-color: #ff7300;
+}
+
+.gravity-gauge{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #4e4c4c;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 30px;
+    transition: all .5s;
+    @media (max-width: 500px) {
+        padding: 20px;
+      }
+}
+
+.gravity-gauge span{
+    font-size: 40px;
+    font-weight: bolder;
+    @media (max-width: 500px) {
+        font-size: 30px;
+    }
 }
 
 .webgl {

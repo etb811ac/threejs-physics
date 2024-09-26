@@ -219,9 +219,8 @@ window.addEventListener('resize', () => {
 document.querySelectorAll('.option').forEach(el => {
     el.addEventListener('click', e => {
         const value = e.currentTarget.dataset.value
-        console.log(parseFloat(value))
         world.gravity.set(0, parseFloat(value), 0)
-
+        document.getElementById('gravity-gauge').innerHTML = (Math.abs(parseFloat(value)))
         document.querySelectorAll('.option').forEach(el => { el.classList.remove('active') })
         e.currentTarget.classList.add('active')
     })
