@@ -104,3 +104,15 @@ button:hover{
     left: 0;
     outline: none;
 }
+.get-in-touch{
+    bottom: 10px;
+    display: flex;
+    position: fixed;
+    left: 10px;
+  
+  }
+  
+  .get-in-touch svg{
+    width: 30px;
+    color: #fff;
+  }
