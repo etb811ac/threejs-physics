@@ -3,7 +3,7 @@
 <p align="center">Click to rain down spheres and boxes that fall, bounce, collide, and clatter — a real-time physics sandbox pairing Three.js rendering with a Cannon.js simulation.</p>
 
 <p align="center">
-  <a href="https://threejs-physics.netlify.app/"><img src="https://img.shields.io/badge/▶%20Live%20Demo-Open-FF4D00?style=for-the-badge" alt="Live Demo"></a>
+  <a href="https://physics-threejs-eacuna.netlify.app/"><img src="https://img.shields.io/badge/▶%20Live%20Demo-Open-FF4D00?style=for-the-badge" alt="Live Demo"></a>
 </p>
 
 <p align="center">
